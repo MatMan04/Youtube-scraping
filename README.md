@@ -12,7 +12,6 @@ A Python-based tool to scrape comments from YouTube videos using **Selenium**. T
 ## Table of Contents
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Output](#output)
 
 ---
@@ -36,33 +35,7 @@ pip install -r requirements.txt
 - Google Chrome browser.
 - ChromeDriver (matching your Chrome version).
 
-## Usage
 
-### Running the Script
-To scrape YouTube comments, run the script with the required parameters:
-```bash
-python scrape_comments.py --video_id VIDEO_ID --output output.json
-```
-
-### Arguments
-- `--video_id`: The ID of the YouTube video from which comments will be scraped.
-- `--output`: (Optional) The name of the output file where scraped comments will be saved. Default is `comments.json`.
-
-### Example Usage
-```bash
-python scrape_comments.py --video_id dQw4w9WgXcQ --output comments.json
-```
-
-### Notes
-- Ensure you have a valid YouTube API key if required.
-- The script may require authentication depending on the scraping method used.
-- Handle API rate limits if using YouTube Data API.
-
-### Troubleshooting
-If you encounter issues, consider:
-- Checking your API key and quota.
-- Ensuring the video ID is correct and the video has public comments.
-- Running the script with appropriate permissions if encountering access errors.
 
 For more details, refer to the project documentation or raise an issue in the reposito
 ## Output
